@@ -161,3 +161,10 @@ button:focus {
     }
 }
 
+/* ///////////
+   Eventos lista - Verificar guardado de elemento
+/////////// */
+#titulo{
+    visibility: hidden;
+}
+

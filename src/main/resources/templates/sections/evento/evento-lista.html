@@ -45,6 +45,12 @@
 
 <div class="container mt-3">
 
+    <div class="alert alert-success" role="alert">
+        <span th:if="${evento_guardado}"><p th:text="${true}"></p></span>
+        <span th:unless="${evento_guardado}"><p th:text="${false}"></p></span>
+
+    </div>
+
     <div class="container row">
         <div class="col">
             <h1>Lista de eventos</h1>
@@ -145,8 +151,6 @@
             </div>
         </div>
     </div>
-
-</div>
 
 
 <!-- Optional JavaScript -->
